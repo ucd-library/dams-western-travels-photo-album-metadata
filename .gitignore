@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Large media files (TIFF images are very large)
+*.tif
+*.tiff
+*.jpg
+*.jpeg
+*.png
+*.pdf
+
+# Generated files (will be created during workflow)
+items/
+images/
+
+# CSV files with sensitive data
+metadata_*.csv
+ark_comparison_*.csv
+
+# Backup files
+*.bak
+*.backup
+
+# Checksums (can be regenerated)
+checksums.md5
+
+# Collection template (not needed in main repo)
+collection-template/
