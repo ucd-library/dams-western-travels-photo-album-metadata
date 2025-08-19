@@ -65,3 +65,9 @@ checksums.md5
 
 # Collection template (not needed in main repo)
 collection-template/
+
+# Scripts and documentation (keep only collection metadata)
+*.py
+README.md
+*_SUMMARY.md
+*_COLLECTION_SUMMARY.md
