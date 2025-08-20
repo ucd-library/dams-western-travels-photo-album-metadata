@@ -18,7 +18,13 @@
   },
   "schema:about": [
     {
-      "@id": "http://id.worldcat.org/fast/775742"
+      "@id": "http://id.worldcat.org/fast/1204928"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1204929"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1204927"
     }
   ],
   "schema:datePublished": {

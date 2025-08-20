@@ -18,7 +18,7 @@
     {
       "@id": "http://id.worldcat.org/fast/775742"
     }
-  ],
+    ],
   "schema:associatedMedia": {
     "@id": "@base:/media/mc-312.pdf"
   },
