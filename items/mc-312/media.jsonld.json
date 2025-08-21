@@ -10,13 +10,15 @@
   },
   "@id": "",
   "@type": [
-    "schema:ImageObject",
-    "schema:CreativeWork",
-    "schema:MediaObject"
+    "ldp:DirectContainer"
   ],
-  "schema:associatedMedia": {
-    "@id": "@base:../images"
+  "ldp:hasMemberRelation": {
+    "@id": "schema:associatedMedia"
   },
-  "ebucore:filename": "mc-312.pdf",
-  "ebucore:hasMimeType": "application/pdf"
+  "ldp:isMemberOfRelation": {
+    "@id": "schema:encodesCreativeWork"
+  },
+  "ldp:membershipResource": {
+    "@id": "@base:.."
+  }
 }
