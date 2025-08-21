@@ -1,26 +1,44 @@
-{
-  "@context": {
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "schema": "http://schema.org/",
-    "fedora": "http://fedora.info/definitions/v4/repository#",
-    "webac": "http://fedora.info/definitions/v4/webac#",
-    "acl": "http://www.w3.org/ns/auth/acl#",
-    "ucdlib": "http://digital.ucdavis.edu/schema#",
-    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+[
+  {
+    "@id": "",
+    "@context": {
+      "ucdlib": "http://digital.ucdavis.edu/schema#"
+    },
+    "@type": [
+      "ucdlib:LabelService",
+      "ucdlib:Service"
+    ]
   },
-  "@id": "",
-  "@type": [
-    "ucdlib:LabelList",
-    "ldp:DirectContainer"
-  ],
-  "schema:name": "Label List",
-  "ldp:hasMemberRelation": {
-    "@id": "ucdlib:hasLabel"
+  {
+    "@id": "http://id.worldcat.org/fast/1204928",
+    "http://schema.org/name": "Photography"
   },
-  "ldp:isMemberOfRelation": {
-    "@id": "ucdlib:isLabelOf"
+  {
+    "@id": "http://id.worldcat.org/fast/1204929",
+    "http://schema.org/name": "Travel photography"
   },
-  "ldp:membershipResource": {
-    "@id": ""
+  {
+    "@id": "http://id.worldcat.org/fast/1204927",
+    "http://schema.org/name": "Photograph albums"
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/1204926",
+    "http://schema.org/name": "Photographs"
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/1204925",
+    "http://schema.org/name": "Travel"
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/1204924",
+    "http://schema.org/name": "Vacations"
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/1204923",
+    "http://schema.org/name": "Tourism"
+  },
+  {
+    "@id": "http://id.worldcat.org/fast/1204922",
+    "http://schema.org/name": "National parks and reserves"
   }
-}
+]
