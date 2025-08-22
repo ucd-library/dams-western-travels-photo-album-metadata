@@ -40,7 +40,9 @@
   "schema:image": {
     "@id": "info:fedora/item/ark:/87293/d3z31nx10/media/images/MC-312_0001.tif"
   },
-
+  "schema:hasPart": {
+    "@id": "info:fedora/item/ark:/87293/d3z31nx10"
+  },
   "schema:license": {
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
   },
