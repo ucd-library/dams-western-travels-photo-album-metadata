@@ -28,14 +28,8 @@ def mint_collection_ark(metadata):
     anvl_metadata.append(f"_target: {metadata.get('target_url', '')}")
     anvl_metadata.append(f"_profile: erc")
     anvl_metadata.append(f"erc.what: {metadata.get('title', '')}")
-    anvl_metadata.append(f"erc.who: {metadata.get('creator', '')}")
-    
-    # Add subject information
-    subjects = metadata.get('subjects', [])
-    if subjects:
-        subject_names = [subj for subj in subjects if subj]
-        if subject_names:
-            anvl_metadata.append(f"erc.where: {'; '.join(subject_names[:3])}")  # First 3 subjects
+    anvl_metadata.append(f"erc.who: Marian and Jerry")  # Original creators
+    anvl_metadata.append(f"erc.where: California")  # Geographic location
     
     data = "\n".join(anvl_metadata)
     
