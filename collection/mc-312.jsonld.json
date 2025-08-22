@@ -45,7 +45,10 @@
   },
   "schema:name": "Western Travels of a Newly-Wed Couple Photograph Album",
   "schema:publisher": [
-    "UC Davis Library, Archives and Special Collections"
+    "UC Davis Library, Archives and Special Collections",
+    {
+      "@id": "http://id.loc.gov/authorities/names/no2008108707"
+    }
   ],
   "schema:sdDatePublished": {
     "@type": "http://www.w3.org/2001/XMLSchema#gYear",
