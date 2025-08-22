@@ -24,7 +24,7 @@
       "@id": "@base:/media/images"
     },
     {
-      "@id": "@base:/media/pdf"
+      "@id": "@base:/media/mc-312.pdf"
     }
   ],
   "schema:creator": "Marian and Jerry",
