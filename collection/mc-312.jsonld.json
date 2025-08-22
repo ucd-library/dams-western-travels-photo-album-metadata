@@ -38,7 +38,10 @@
     "https://oac.cdlib.org/findaid/ark:/13030/c8251rdq/"
   ],
   "schema:image": {
-    "@id": "info:fedora/item/ark:/87293/d3z31nx10/media/images/MC-312_0001.tif"
+    "@id": "info:fedora/item/ark:/87293/d3td9nh01/media/images/MC-312_0001.tif"
+  },
+  "schema:hasPart": {
+    "@id": "info:fedora/item/ark:/87293/d3td9nh01"
   },
   "schema:license": {
     "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
