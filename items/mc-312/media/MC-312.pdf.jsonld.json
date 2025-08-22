@@ -17,6 +17,6 @@
   "schema:associatedMedia": {
     "@id": "@base:../images"
   },
-  "ebucore:filename": "mc-312.pdf",
+  "ebucore:filename": "MC-312.pdf",
   "ebucore:hasMimeType": "application/pdf"
 }
