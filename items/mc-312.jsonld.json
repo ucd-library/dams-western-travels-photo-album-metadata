@@ -19,9 +19,14 @@
       "@id": "http://id.worldcat.org/fast/775742"
     }
   ],
-  "schema:associatedMedia": {
-    "@id": "@base:/media/mc-312.pdf"
-  },
+  "schema:associatedMedia": [
+    {
+      "@id": "@base:/media/images"
+    },
+    {
+      "@id": "@base:/media/pdf"
+    }
+  ],
   "schema:creator": "Marian and Jerry",
   "schema:datePublished": {
     "@type": "http://www.w3.org/2001/XMLSchema#gYear",
