@@ -25,14 +25,9 @@
       "@id": "http://id.worldcat.org/fast/1204927"
     }
   ],
-  "schema:associatedMedia": [
-    {
-      "@id": "@base:/media/images"
-    },
-    {
-      "@id": "@base:/media/MC-312.pdf"
-    }
-  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/media/images"
+  },
   "schema:creator": "Marian and Jerry",
   "schema:datePublished": {
     "@type": "http://www.w3.org/2001/XMLSchema#gYear",
@@ -61,6 +56,8 @@
     {
       "@id": "http://id.loc.gov/authorities/names/no2008108707"
     },
-    "UC Davis, Archives and Special Collections"
+    {
+      "@value": "UC Davis, Archives and Special Collections"
+    }
   ]
 }
